@@ -4,6 +4,7 @@
   },
   "jspm": {
     "dependencies": {
+      "chai": "npm:chai@^3.4.1",
       "testcheck": "npm:testcheck@^0.1.4",
       "toastr": "github:CodeSeven/toastr@^2.1.2",
       "ts": "github:frankwallis/plugin-typescript@^2.4.7"

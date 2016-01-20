@@ -5,6 +5,7 @@
   },  
   "files": [ 
     "./typings/toastr/toastr.d.ts",
-    "./typings/testcheck/testcheck.d.ts"
+    "./typings/testcheck/testcheck.d.ts",
+    "./typings/chai/chai.d.ts"
   ]
 }
