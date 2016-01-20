@@ -16,10 +16,13 @@
     <script>
         System.import('src/consoleToastr')
           .then(function () {
-            return System.import('src/tests');
+            return System.import('src/main');
           })       
+          .then(function () {
+            return System.import('src/tests');
+          })  
           .catch(function(err) {
-            console.warn("Unable to import module", err.message);
+            console.error(err.message);
           });
     </script>      
 </body>

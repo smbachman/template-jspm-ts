@@ -1,5 +1,3 @@
-import * as assert from 'assert';
-
-assert.ok(1 == 2);
+import "./simple/squaring-tests";
 
 console.info("All tests passed");
