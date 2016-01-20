@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "noImplicitAny": false    
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "./src/index.ts",
+    "./typings/toastr/toastr.d.ts",
+    "./typings/testcheck/testcheck.d.ts",
+    "./typings/assert/assert.d.ts"
+  ]
+}

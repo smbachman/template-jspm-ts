@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>template (jspm,typescript,etc)</title>
+    <!--
+    <link href="css/vendor.min.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+    -->    
+</head>
+<body>
+    <div id="ui" class="stretch-height"></div>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+        System.import('src/consoleToastr')
+          .then(function () {
+            return System.import('src/tests');
+          })       
+          .catch(function(err) {
+            console.warn("Unable to import module", err.message);
+          });
+    </script>      
+</body>
+</html>
